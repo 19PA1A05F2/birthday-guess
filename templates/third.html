@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{%block content%} 
+<h1>Let me Guess Your BirthDate</h1>
+    <h3>Is your birthdate is present below ??</h3>
+    <h4>If yes then press <span>Yes </span> else press <span>No</span></h4>
+<table>
+    <tr>
+        <td class="green">6</td>
+        <td class="pink">23</td>
+        <td class="blue">30</td>
+        <td  class="red">21</td>
+    </tr>
+    <tr>
+        <td  class="red">7</td>
+        <td class="green">14</td>
+        <td class="pink">22</td>
+        <td class="blue">20</td>
+    </tr><tr>
+        <td class="pink">31</td>
+        <td class="green">29</td>
+        <td  class="red">28</td>
+        <td class="blue">4</td>
+    </tr><tr>
+        <td class="green">12</td>
+        <td  class="red">15</td>
+        <td class="blue">5</td>
+        <td class="pink">13</td>
+    </tr>
+</table>
+<form action="" method="post">
+    <button name = "yes" class="bt_yes" value="1">Yes</button>
+    <button name = "yes" class= "bt_no" value="0">No</button>
+</form>
+{%endblock%}
